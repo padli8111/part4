@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<style type="text/css">
+body{
+     margin:0;
+     padding:0;
+     background:#34495e;
+}
+div{
+    width:280px;
+    height:300px;
+    background:#191919;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow:15px 15px 20px rgba(0,0,0,1);    
+    border-radius:0px 30px 0px 30px;
+}
+div h2{
+       color:#fff;
+       margin:0;
+       padding:20px;
+       text-align:center;
+       font-size:2em;
+       font-family: 'Roboto Mono', monospace; 
+       letter-spacing:5px;
+       text-transform:uppercase;
+}
+div .text,.pass{
+       color:#fff;
+       background:none;
+       width:180px;
+       height:30px;
+       margin:10px 10px 20px 40px;
+       padding:5px;
+       outline:none;
+       border:1px solid #00BFFF;
+       border-radius:25px;
+       font-size:15px;
+       font-family: 'Rubik', sans-serif;
+       text-align:center;
+       letter-spacing:2px;
+       
+}
+div .pass{
+          margin:5px 40px;
+}
+div .login{
+        width:100px;
+        height:35px;
+        background:none;
+        outline:none;
+        border:1px solid #7CFC00;
+        border-radius:25px;
+        color:#fff;
+        margin:30px 90px;
+        font-size:15px;
+        font-weight:800;
+        transition:1.5s;
+}
+.login:hover{
+       box-shadow:0px 0px 20px 0 #7CFC00,
+                  0px 0px 20px 0 #7CFC00 inset,
+                  0px 0px 20px 0 #7CFC00,
+                  0px 0px 20px 0 #7CFC00 inset;
+       text-shadow:0 0 5px #7CFC00,0 0 5px #7CFC00;
+}
+</style>
+<title></title>
+</head>
+<body>
+<div>
+<span></span>
+<h2>Login</h2>
+
+<input type="text" class="text" placeholder="Username">
+<input type="password" class="pass" placeholder="Password">
+<input type="submit" value="Login" class="login" >
+</div>
+</body>
+</html>
